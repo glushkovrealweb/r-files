@@ -34,7 +34,7 @@ colfunc <- colorRampPalette(c("white", "steelblue"))
 heatmap.2(as.matrix(khm1),
           main = "Доли просмотренных страниц по источникам",
           xlab = "Весь трафик на лендинг",
-          ylab = "Просмотренные страницы, кроме лендинга",
+          ylab = "Просмотренные страницы, кроме лендинга222",
           mar=c(10,18),
           scale="column",
           col=colfunc(15),
