@@ -8,8 +8,8 @@ library("gplots")
 ga_token <- authorize(client.id = "44510395713-cngu0lhjk5rud2o8s3noj6qj17f7obng.apps.googleusercontent.com", client.secret = "FHsO_3tCeb4FgFXjw-GPbCTW")
 
 hilding <- get_ga(profile.id = "82899357",
-                    start.date = "2015-03-1", 
-                    end.date = "2015-03-31", 
+                    start.date = "2015-04-1", 
+                    end.date = "2015-04-31", 
                     metrics = "ga:hits", 
                     dimensions = "ga:pagePath,ga:eventLabel",
                     filter = "ga:eventCategory=~scroll;ga:hits>1"
